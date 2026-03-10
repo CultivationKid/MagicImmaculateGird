@@ -1,109 +1,92 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
+<title>Simple Grid Game</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+table {
+border-collapse: collapse;
+margin: 20px auto;
+}
+
+td, th {
+border: 1px solid black;
+width: 120px;
+height: 80px;
+text-align: center;
+}
+
+input {
+width: 90%;
+border: none;
+text-align: center;
+}
+
+.header {
+background-color: #ddd;
+font-weight: bold;
+}
+</style>
 </head>
+
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;title&gt;Simple Grid Game&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1">&lt;style&gt;</span></p>
-<p class="p1"><span class="s1">body {</span></p>
-<p class="p1"><span class="s1">font-family: Arial, sans-serif;</span></p>
-<p class="p1"><span class="s1">text-align: center;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">table {</span></p>
-<p class="p1"><span class="s1">border-collapse: collapse;</span></p>
-<p class="p1"><span class="s1">margin: 20px auto;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">td, th {</span></p>
-<p class="p1"><span class="s1">border: 1px solid black;</span></p>
-<p class="p1"><span class="s1">width: 120px;</span></p>
-<p class="p1"><span class="s1">height: 80px;</span></p>
-<p class="p1"><span class="s1">text-align: center;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">input {</span></p>
-<p class="p1"><span class="s1">width: 90%;</span></p>
-<p class="p1"><span class="s1">border: none;</span></p>
-<p class="p1"><span class="s1">text-align: center;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">.header {</span></p>
-<p class="p1"><span class="s1">background-color: #ddd;</span></p>
-<p class="p1"><span class="s1">font-weight: bold;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;h2&gt;Simple Grid Game&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;Enter answers that match both the row and column topics.&lt;/p&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;table&gt;</span></p>
-<p class="p1"><span class="s1">&lt;tr&gt;</span></p>
-<p class="p1"><span class="s1">&lt;th&gt;&lt;/th&gt;</span></p>
-<p class="p1"><span class="s1">&lt;th class="header"&gt;Topic 1&lt;/th&gt;</span></p>
-<p class="p1"><span class="s1">&lt;th class="header"&gt;Topic 2&lt;/th&gt;</span></p>
-<p class="p1"><span class="s1">&lt;th class="header"&gt;Topic 3&lt;/th&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/tr&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;tr&gt;</span></p>
-<p class="p1"><span class="s1">&lt;th class="header"&gt;Topic A&lt;/th&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/tr&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;tr&gt;</span></p>
-<p class="p1"><span class="s1">&lt;th class="header"&gt;Topic B&lt;/th&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/tr&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;tr&gt;</span></p>
-<p class="p1"><span class="s1">&lt;th class="header"&gt;Topic C&lt;/th&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;td&gt;&lt;input&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/tr&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/table&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;button onclick="submitGrid()"&gt;Submit&lt;/button&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;p id="result"&gt;&lt;/p&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1">function submitGrid() {</span></p>
-<p class="p1"><span class="s1">let inputs = document.querySelectorAll("input");</span></p>
-<p class="p1"><span class="s1">let filled = 0;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">inputs.forEach(input =&gt; {</span></p>
-<p class="p1"><span class="s1">if (input.value.trim() !== "") {</span></p>
-<p class="p1"><span class="s1">filled++;</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">});</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">document.getElementById("result").innerText =</span></p>
-<p class="p1"><span class="s1">"You filled " + filled + " out of 9 squares!";</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+
+<h2>Simple Grid Game</h2>
+<p>Enter answers that match both the row and column topics.</p>
+
+<table>
+<tr>
+<th></th>
+<th class="header">Alpha,Beta, Unlimited</th>
+<th class="header">Green</th>
+<th class="header">Instant</th>
+</tr>
+
+<tr>
+<th class="header">Reserved List</th>
+<td><input type="text" placeholder="Your answer"></td>
+<td><input type="text" placeholder="Your answer"></td>
+<td><input type="text" placeholder="Your answer"></td>
+</tr>
+
+<tr>
+<th class="header">Magic Foundations</th>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+</tr>
+
+<tr>
+<th class="header">Black Creature</th>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+</tr>
+</table>
+
+<button onclick="submitGrid()">Submit</button>
+
+<p id="result"></p>
+
+<script>
+function submitGrid() {
+let inputs = document.querySelectorAll("input");
+let filled = 0;
+
+inputs.forEach(input => {
+if (input.value.trim() !== "") {
+filled++;
+}
+});
+
+document.getElementById("result").innerText =
+"You filled " + filled + " out of 9 squares!";
+}
+</script>
+
 </body>
 </html>
