@@ -43,25 +43,25 @@ font-weight: bold;
 <th></th>
 <th class="header">Alpha,Beta, Unlimited</th>
 <th class="header">Green</th>
-<th class="header">Sorcery</th>
+<th class="header">Instant</th>
 </tr>
 
 <tr>
-<th class="header">Topic A</th>
+<th class="header">Reserved List</th>
+<td><input type="text" placeholder="Your answer"></td>
+<td><input type="text" placeholder="Your answer"></td>
+<td><input type="text" placeholder="Your answer"></td>
+</tr>
+
+<tr>
+<th class="header">Magic Foundations</th>
 <td><input></td>
 <td><input></td>
 <td><input></td>
 </tr>
 
 <tr>
-<th class="header">Topic B</th>
-<td><input></td>
-<td><input></td>
-<td><input></td>
-</tr>
-
-<tr>
-<th class="header">Topic C</th>
+<th class="header">Black Creature</th>
 <td><input></td>
 <td><input></td>
 <td><input></td>
