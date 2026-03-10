@@ -1,4 +1,8 @@
 <h2>The Magic Grid</h2>
+<table>
+<tr>
+<th></th>
+<th class="header">Alpha,Beta, Unlimited</th>
 <p>Select a card for each cell that matches the criteria for that cell’s row and column.
 You have nine guesses to fill out the grid. Each guess, whether correct or incorrect, counts as a guess.</p>
 
