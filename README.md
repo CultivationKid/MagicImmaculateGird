@@ -1,5 +1,5 @@
 <h2>The Magic Grid</h2>
-<p>EComplete the Grid by Solving Which Cards Enter Each Category.</p>
+<p>Complete the Grid by Solving Which Cards Enter Each Category.</p>
 
 <table>
 <tr>
